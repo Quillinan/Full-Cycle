@@ -62,13 +62,15 @@ Todos os comandos utilizados na aula 1 do curso.
 
 </details>
 
+<br>
+
 <details>
 
   <br>
 
   <summary>Comandos Docker</summary>
 
-- Criar arquivo docker-compose.yaml
+- Criar arquivo <code>docker-compose.yaml</code>
 
   ```yaml
   version: '3.8'
@@ -111,26 +113,28 @@ Todos os comandos utilizados na aula 1 do curso.
 
 </details>
 
+<br>
+
 <details>
 
   <br>
 
   <summary>Comandos Prisma</summary>
 
-- Cria um prisma schema e .env:
+- Cria <code>schema.prisma</code> e <code>.env</code>:
 
   ```bash
   npx prisma init
   ```
 
-- Configurar o .env :
+- Configurar o <code>.env</code> :
 
   ```ts
   //Configure o URL do banco de dados com as variáveis definidas no YAML, como MYSQL_ROOT_PASSWORD, ports e MYSQL_DATABASE
   DATABASE_URL = 'mysql://root:SENHA@localhost:PORTA/NOME_DO_BANCO';
   ```
 
-- Migra o schema para o banco:
+- Migra o <code>schema.prisma</code> para o banco:
 
   ```bash
   npx prisma migrate dev
